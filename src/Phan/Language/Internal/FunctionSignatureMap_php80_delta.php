@@ -171,7 +171,7 @@ return [
 'imagegrabwindow' => ['false|GdImage', 'handle'=>'int', 'client_area='=>'bool'],
 'imageinterlace' => ['int', 'image'=>'GdImage', 'enable='=>'?bool'],
 'imageistruecolor' => ['bool', 'image'=>'GdImage'],
-'imagejpeg' => ['bool', 'image'=>'GdImage', 'file='=>'?string', 'quality='=>'int'],
+'imagejpeg' => ['bool', 'image'=>'GdImage', 'file='=>'resource|string|null', 'quality='=>'int'],
 'imagelayereffect' => ['bool', 'image'=>'GdImage', 'effect'=>'int'],
 'imageline' => ['bool', 'image'=>'GdImage', 'x1'=>'int', 'y1'=>'int', 'x2'=>'int', 'y2'=>'int', 'color'=>'int'],
 'imageopenpolygon' => ['bool', 'image'=>'GdImage', 'points'=>'array', 'num_points_or_color'=>'int', 'color='=>'int'],
